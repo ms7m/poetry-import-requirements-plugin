@@ -5,7 +5,17 @@
 
 # Installing
 
-As of now (May 13, 2020) the plugin system has been merged to master, but has **not** been released to PyPi (1.2.0a1). 
+As of now (May 13, 2020) the plugin system has been merged to master, but has **not** been released to PyPi (1.2.0a1). When the plugin system has been released, i'll publish this plugin to PyPi.
+
+# Usage
+
+```bash
+poetry install-from-requirements <path-to-requirements.txt>
+
+# dry run
+poetry install-from-requirements --dry-run requirements.txt
+
+```
 
 # Tests
 
