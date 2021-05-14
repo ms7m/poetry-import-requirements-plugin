@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poetry-import-requirements-plugin"
+version = "0.1.2"
+description = ""
+authors = ["Mustafa <mustafa@ms7m.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+poetry = {path = "poetry-1.2.0a1-py3-none-any.whl"}
+rparse = "^0.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.5-beta.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+poetry-import-requirements-plugin = "poetry_import_requirements_plugin.plugin:MyApplicationPlugin"

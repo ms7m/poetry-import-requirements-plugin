@@ -1,0 +1,4 @@
+/.vscode
+/dist
+/requirements.txt
+/test.py

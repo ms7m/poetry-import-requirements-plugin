@@ -1,0 +1,3 @@
+
+class InvalidRequirementsFile(Exception):
+    pass
